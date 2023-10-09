@@ -18,20 +18,17 @@ This Python script is designed to assist Ronny in navigating through a maze of r
    ```bash
    python maze_solver.py
 
-# Input State Space:
+## Input State Space:
 
 The script uses a predefined state space representing the maze, including room coordinates, rubbish details, and disposal room flags.
 
-# Output Path and Cost:
+## Output Path and Cost:
 
 The script outputs the calculated path and cost for Ronny to follow, including collected rubbish weight and volume.
 
-# State Space Definition
-The state_space list defines the maze layout, including coordinates, rubbish details, and disposal room flags.
-
-# Customization
+## Customization
 The initial state is set to the first room in the state_space list, but users can modify it for different starting points.
 
-# Dependencies
+## Dependencies
 Python 3
 
